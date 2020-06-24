@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.6.8"
+
+[packages]
+requests = "*"
+regex = "~=2020.5.14"
+geojson = "~=2.5.0"
+pandas = "~=1.0.4"
+psycopg2 = "*"
+jsonstreams = "*"
+
+[dev-packages]
+pytest = "*"
